@@ -19,6 +19,7 @@ class App extends React.Component {
       <div className="App">
         <div className="upper-bar">
           <button>Create To-Do</button>
+           <button>Create To-Do</button>
         </div>
         <div className="todo-container">
           {this.state.todos.map(todo => (
